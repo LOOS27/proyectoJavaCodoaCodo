@@ -1,0 +1,25 @@
+.texto {
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+.textoenlace {
+    color: rgb(9, 172, 49);
+}
+.oscurecer-img {
+    filter: brightness(50%); // Más oscura
+  }
+
+  /*probe para alinear al centro 
+  .abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  */
+
+  .gradientepropio {
+    background-image: radial-gradient(circle at 100% 0%, #1f5271 0, #1c3846 50%);
+
+
+  }

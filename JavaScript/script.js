@@ -19,18 +19,32 @@ function calcularPrecioTotal(){
    
 
     //En descuento almacenamos el total de pesos para descontar
-   let descuento=(cantEnt*1000) * porcDesc/100;
+   let descuento=(cantEnt*200) * porcDesc/100;
    console.log("descuento: " + descuento);
 
    //Precio total a pagar
-   let precioFin=(cantEnt*1000) - descuento;
+   let precioFin=(cantEnt*200) - descuento;
    console.log("precioFin: " + precioFin);
 
 
     //Modifico el input precio final para poner el total con descuento
    document.getElementById("precioFinal").value=precioFin;
 
+
+
+
+console.log ("Compraste: "+ cantEnt + " " + "entrada por un total de $" + precioFin);
+
+
+document.getElementById('resumen').onclick = () => {
+  alert('"Compraste: "+  + " " + "entrada por un total de $" + ');
 }
+
+
+}
+
+
+ 
 
 
 

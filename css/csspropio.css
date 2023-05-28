@@ -1,3 +1,19 @@
+
+html {
+  min-height: 100vh
+}
+
+
+body {
+  display:grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 100vh;
+
+}
+
+
+
 .texto {
     font-size: .9rem;
     line-height: 1.3rem;
@@ -23,3 +39,17 @@
 
 
   }
+  .fuentp {
+    font-size: small;
+
+  }
+  .salto {
+      white-space: nowrap;
+    }
+.micolor {
+  background-color: #a6c84c;
+}
+
+
+
+  
